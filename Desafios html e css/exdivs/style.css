@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family = Reenie + Gorro & display = swap'); 
+/*'Renie Beanie', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Reenie+Beanie&display=swap');
+/*'Petit Formal Script', cursive;*/
+
+body {
+    background-color: whitesmoke;
+}
+
+div#titulo {
+    font-family: 'Petit Formal Script', cursive;
+    color: whitesmoke;
+    background-color: #30505C;
+    text-align: center;
+
+    
+    height: 100px;
+    
+}

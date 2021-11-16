@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+:root {
+    --cor0:#CAD9E0;
+    --cor1:#F4E7DE;
+    --cor2:#F6F5F3;
+    --cor3:#CED4D3;
+    --cor4:#E1E1E1;
+}
+
+
+body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: var(--cor0);
+}
+#cor-fundo {
+    background-color: var(--cor1);
+    margin: auto;
+    margin-top: auto;
+    width: 650px;
+    padding: 10px;
+}
+#formulario {
+    background-color: var(--cor2);
+}
+input, label {
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--cor4);
+}
+
+

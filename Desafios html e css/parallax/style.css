@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.faixas{
+    background-color: white;
+}
+.imagem1{
+   width: 400px;
+   height: 400px;
+}
+.imagem2{
+    width: 400px;
+    height: 400px;
+ }
+ .imagem3{
+    width: 400px;
+    height: 400px;
+ }
+ .imagem4{
+    width: 400px;
+    height: 400px;
+ }

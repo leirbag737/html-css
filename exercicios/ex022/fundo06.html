@@ -7,16 +7,25 @@
     <title>Document</title>
     <style>
         body{
+            /*
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
+            background-attachment: fixed;
+            */
+            background: black url(imagens/wallpaper002.jpg)  center center no-repeat fixed;
+            background-size: cover;
         }
+        /*
+        Ordem shorthand:
+        background: color -> image -> position -> repeat -> (size // não funciona direito) -> attachment
+        */
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid rgb(30, 59, 121);
@@ -27,7 +36,10 @@
 <body>
     <main>
         <h1>Teste Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga in placeat quisquam eos laborum. Tempora ex tenetur, accusantium fugiat, reprehenderit eaque dolores nostrum libero consequuntur facilis neque magnam vel eum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, voluptatum placeat? Odio facilis doloremque laudantium culpa sit illo asperiores et quo, in ex at quidem quae rem ipsum, facere provident!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga in placeat quisquam eos laborum. Tempora ex tenetur, accusantium fugiat, reprehenderit eaque dolores nostrum libero consequuntur facilis neque magnam vel eum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, voluptatum placeat? Odio facilis doloremque laudantium culpa sit illo asperiores et quo, in ex at quidem quae rem ipsum, facere provident! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione omnis rem dignissimos natus animi molestiae, deleniti magnam quasi amet eius? Sequi molestias deleniti odit officia ipsam quam veritatis id, repellendus rerum animi provident necessitatibus beatae nostrum! Necessitatibus dolor dolore ducimus id aperiam consectetur voluptatum? Explicabo doloribus aut inventore qui et tempore porro dolore? Ea repellendus quia architecto, placeat culpa vero maiores dolores cupiditate cum non recusandae dignissimos saepe quas voluptates amet perferendis minus tempore sed nisi atque quidem dicta. Sed, provident magnam quis corporis exercitationem tenetur modi veniam, cupiditate pariatur dolores reprehenderit aut repellat qui sint expedita? Magni, rem sunt.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga in placeat quisquam eos laborum. Tempora ex tenetur, accusantium fugiat, reprehenderit eaque dolores nostrum libero consequuntur facilis neque magnam vel eum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, voluptatum placeat? Odio facilis doloremque laudantium culpa sit illo asperiores et quo, in ex at quidem quae rem ipsum, facere provident! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione omnis rem dignissimos natus animi molestiae, deleniti magnam quasi amet eius? Sequi molestias deleniti odit officia ipsam quam veritatis id, repellendus rerum animi provident necessitatibus beatae nostrum! Necessitatibus dolor dolore ducimus id aperiam consectetur voluptatum? Explicabo doloribus aut inventore qui et tempore porro dolore? Ea repellendus quia architecto, placeat culpa vero maiores dolores cupiditate cum non recusandae dignissimos saepe quas voluptates amet perferendis minus tempore sed nisi atque quidem dicta. Sed, provident magnam quis corporis exercitationem tenetur modi veniam, cupiditate pariatur dolores reprehenderit aut repellat qui sint expedita? Magni, rem sunt.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga in placeat quisquam eos laborum. Tempora ex tenetur, accusantium fugiat, reprehenderit eaque dolores nostrum libero consequuntur facilis neque magnam vel eum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, voluptatum placeat? Odio facilis doloremque laudantium culpa sit illo asperiores et quo, in ex at quidem quae rem ipsum, facere provident! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione omnis rem dignissimos natus animi molestiae, deleniti magnam quasi amet eius? Sequi molestias deleniti odit officia ipsam quam veritatis id, repellendus rerum animi provident necessitatibus beatae nostrum! Necessitatibus dolor dolore ducimus id aperiam consectetur voluptatum? Explicabo doloribus aut inventore qui et tempore porro dolore? Ea repellendus quia architecto, placeat culpa vero maiores dolores cupiditate cum non recusandae dignissimos saepe quas voluptates amet perferendis minus tempore sed nisi atque quidem dicta. Sed, provident magnam quis corporis exercitationem tenetur modi veniam, cupiditate pariatur dolores reprehenderit aut repellat qui sint expedita? Magni, rem sunt.
+        </p>
     </main>
 </body>
 </html>
